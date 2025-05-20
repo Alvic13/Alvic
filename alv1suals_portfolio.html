@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>alv1suals</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .video-grid iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>alv1suals</h1>
+    <p>Filmmaker | Videoclips | Visual Storytelling</p>
+  </section>
+
+  <section class="video-grid">
+    <!-- Reemplaza los enlaces con tus videos de YouTube o Vimeo -->
+    <iframe src="https://www.youtube.com/embed/B2VYTWGPejM" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/UxfMvEAWGlg" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/123456789" allowfullscreen></iframe>
+  </section>
+
+  <footer class="footer">
+    © 2025 alv1suals – All rights reserved
+  </footer>
+
+</body>
+</html>
